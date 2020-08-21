@@ -1,0 +1,176 @@
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+
+}
+
+nav,header,footer{
+    display: block;
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+}
+
+ul.topnav-left li{
+    list-style: none;
+    float: left;
+}
+ul.topnav-right li{
+    float: right;
+    list-style: none;
+}
+h2{
+    font-size: 40px;
+    margin: 60px;
+    color: midnightblue;
+    text-align: center;
+
+}
+
+ul.topnav-left li a{
+    display: block;
+    text-decoration: solid;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px;
+    color: midnightblue;
+}
+
+p{
+    text-align: center;
+    margin:20px;
+}
+
+.parent-1{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around; 
+    
+}
+.parent-2{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around; 
+}
+
+
+.inputbox{
+    font-size: 20px;
+    width: 300px;
+    min-width: 80px;
+    padding:5px;
+    border-radius: 7px;
+}
+
+label{
+    color: midnightblue;
+}
+
+h4{
+font-size: 30px;
+}
+
+.leftSide-col{
+    margin-left: 38%;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px;
+    width: 100px;
+    min-width: 30px;
+    border-radius: 7px;
+    display: block;
+    align-content: center;
+    margin:40px;
+    margin-left: 100px;
+    box-shadow: 0 5px 20px rgb(0,0,0,.3);
+}
+
+form label{
+    font-size: 14px;
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    padding-bottom:4%;
+    padding-top:0%;
+
+}
+.form-group{
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: midnightblue;
+}
+.label{
+    padding-right: 10px;
+}
+
+.form-control{
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    color: #292b2c;
+    border: 2px;
+    padding:.375rem .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 2;
+  
+}
+
+.quote-btn{
+    background-color: #66B6;
+    color:midnightblue;
+    font-size: 10px;
+    border-radius: 3px solid;
+    padding: .6rem 1rem;
+    box-shadow: 0 5px 20px rgb(0,0,0,.3);
+
+}
+
+.submit-btn-wrapper{
+    margin-top: 2rem;
+}
+
+#message{
+    max-width: 800px;
+    width: 100%;
+    padding:.375rem .75rem;
+    border: .5px solid #292b2c;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.data label{
+    font-size:20px;
+   
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+}
